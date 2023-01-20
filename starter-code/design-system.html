@@ -168,9 +168,40 @@
             >
           </div>
 
-          <div style="margin-bottom: 50vh">
+          <div class="flow"style="margin-bottom: 50vh; --flow-space: 4rem">
             <!-- Tabs-->
-          </div>
+            <div class="tab-list underline-indicators flex">
+              <button
+                aria-selected="true"
+                class="uppercase text-accent ff-sans-cond letter-spacing-2 bg-dark"
+              >
+                Moon
+              </button>
+              <button
+                aria-selected="false"
+                class="uppercase text-accent ff-sans-cond letter-spacing-2 bg-dark"
+              >
+                Mars
+              </button>
+              <button
+                aria-selected="false"
+                class="uppercase text-accent ff-sans-cond letter-spacing-2 bg-dark"
+              >
+                Europa
+              </button>
+            </div>
+            <!--Dots-->
+            <div class="dot-indicators flex">
+              <button aria-selected="true"><span class="sr-only">Slide title</span></button>
+              <button aria-selected="false"><span class="sr-only">Slide title</span></button>
+              <button aria-selected="false"><span class="sr-only">Slide title</span></button>
+            </div>
+            <!--numbers 1, 2, 3 flex-col-->
+            <div class="number-indicators flex flex-col">
+              <button class="flex-col">1</button>
+              <button class="flex-col">2</button>
+              <button class="flex-col">3</button>
+            
         </div>
       </section>
     </div>
